@@ -1,0 +1,176 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #0d6efd, #6610f2); /*Bootstrap blue & purple*/
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.hero .social-icons a {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.hero .social-icons a:hover {
+    color: #12d640; 
+}
+
+
+section {
+    padding-top: 80px; /* space for navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+  color: #12d640 !important;           /* gold text */
+  border-bottom: 2px solid #ffc107;    /* underline */
+  transition: all 0.3s ease-in-out;    /* smooth effect */
+}
+ /*--------------------------------------------------------------
+  # Services Section
+  --------------------------------------------------------------*/
+  .services{
+    background: linear-gradient(135deg, #e8f0ff, #ede7f6); /* soft blue to soft purple */
+color: #212529;
+  }
+  .services .service-item {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 18px;
+    border-bottom: 5px solid   #ffffff;
+    height: 100%;
+  }
+  
+  .services .service-item .icon {
+    color: #252525;
+    background: #ffffff;
+    margin: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .service-item h3 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .services .service-item p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  @media (min-width: 1365px) {
+    .services .service-item:hover {
+      transform: translateY(-10px);
+      border-color: #ffffff;
+    }
+  
+    .services .service-item:hover h3 {
+      color: #ffffff;
+    }
+  }
+
+/*--------------------------------------------------------------
+  # Scroll Top Button
+  --------------------------------------------------------------*/
+  .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: -15px;
+    z-index: 99999;
+    background-color:  #12d640; 
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  
+  .scroll-top i {
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 0;
+  }
+  
+  .scroll-top:hover {
+    background-color: color-mix(in srgb, #12d640, transparent 20%);
+    color:#ffffff;
+  }
+  
+  .scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+    bottom: 15px;
+  }
+
+
+  /*--------------------------------------------------------------
+  # Contact Section
+  --------------------------------------------------------------*/
+  .contact .info-wrap {
+    background-color:  #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .contact .info-item i {
+    font-size: 20px;
+    color: #ffffff;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #ffffff, transparent 40%);
+    margin-right: 15px;
+  }
+  
+  .contact .info-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 2px 0;
+  }
+  
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .contact .info-item:hover i {
+    background: #ffffff;
+    color: #ffffff;
+  }

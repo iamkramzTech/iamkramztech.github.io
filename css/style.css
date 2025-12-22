@@ -39,7 +39,7 @@ section {
     font-weight: bold;
 }
 .navbar-nav .nav-link.active {
-  color: #12d640 !important;           /* gold text */
+  color: #0d6efd !important;           
   border-bottom: 2px solid #ffc107;    /* underline */
   transition: all 0.3s ease-in-out;    /* smooth effect */
 }
@@ -47,7 +47,8 @@ section {
   # Services Section
   --------------------------------------------------------------*/
   .services{
-    background: linear-gradient(135deg, #e8f0ff, #ede7f6); /* soft blue to soft purple */
+    background: linear-gradient(135deg, #e8f0ff, #ede7f6);  /*soft blue to soft purple */
+ /*background-color: #f8f9fa !important;*/
 color: #212529;
   }
   .services .service-item {
@@ -109,7 +110,7 @@ color: #212529;
     right: 15px;
     bottom: -15px;
     z-index: 99999;
-    background-color:  #12d640; 
+    background-color:  #0d6efd; 
     width: 44px;
     height: 44px;
     border-radius: 50px;
@@ -123,7 +124,7 @@ color: #212529;
   }
   
   .scroll-top:hover {
-    background-color: color-mix(in srgb, #12d640, transparent 20%);
+    background-color: color-mix(in srgb, #0d6efd, transparent 20%);
     color:#ffffff;
   }
   
@@ -146,7 +147,7 @@ color: #212529;
   
   .contact .info-item i {
     font-size: 20px;
-    color: #ffffff;
+    
     width: 56px;
     height: 56px;
     display: flex;

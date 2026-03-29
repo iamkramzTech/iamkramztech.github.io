@@ -9,9 +9,8 @@ export function Hero()
 
                     <!-- Social Icons -->
                     <div class="social-icons mt-4">
-                        <a href="https://github.com/iamkramzTech" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="https://www.linkedin.com/in/mark-joseph-bernaldez" target="_blank"><i
-                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/iamkramzTech" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mark-joseph-bernaldez" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
                         <a href="mailto:markjoseph.bernaldez.dev@gmail.com"><i class="bi bi-envelope-fill"></i></a>
                     </div>
         </div>

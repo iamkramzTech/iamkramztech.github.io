@@ -7,7 +7,7 @@ export function ProjectCard(project)
             <div class="card-body">
                 <h5 class="card-title">${project.title}</h5>
                 <p class="card-text">${project.description}</p>
-                <a href="${project.link}" class="btn btn-primary">View Project</a>
+                <a href="${project.link}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Project</a>
             </div>
         </div>
     </div>
